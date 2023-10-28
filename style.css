@@ -175,6 +175,10 @@ body{
         /* background-color: rgb(31, 65, 53); */
         gap: 5px;
     }
+    .showmeal .card {
+        width: 146px;
+        height: 272px;}
+        
     .dishs{
         /* margin-left: 40px; */
     }
