@@ -7,12 +7,12 @@
 
 body{
     width: 100%;
-    height: 150vh;
+    height: 100vh;
     font-family:'Roboto',cursive;
 }
 .container{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .logo{
@@ -164,26 +164,28 @@ body{
 @media (max-width:390px) {
     .category{
         width: 100%;
+        
         height: 150px;
-        text-align: center;
+        /* text-align: center; */
         /* background-color: aquamarine; */
     }
     .dishs{
         justify-content: center;
-        width: 75%;
-        gap: 2px;
+        width: 100%;
+        /* background-color: rgb(31, 65, 53); */
+        gap: 5px;
+    }
+    .dishs{
+        /* margin-left: 40px; */
     }
     .dishs input{
-        margin-left: 8px;
+        margin-top: 5px;
+    width: 80px;
+    height: 30px;
     }
     #nextbtn {
-        margin-left: 42vw;
+        margin-left: 72vw;
+        /* background-color: yellow; */
         cursor: pointer;
-    }
-    #prevbtn {
-        margin-left: -32vw;
-        cursor: pointer;
-        height: 32%;
-        width: 250px; 
     }
 } 
