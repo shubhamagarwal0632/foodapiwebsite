@@ -177,6 +177,7 @@ body{
     }
     .showmeal .card {
         width: 135px;
+        background-color: blueviolet;
         height: 272px;}
         
     .dishs{
