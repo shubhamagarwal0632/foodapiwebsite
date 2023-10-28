@@ -139,7 +139,7 @@ body{
 
     .container{
         width: 100%;
-        background-color: steelblue;
+        /* background-color: steelblue; */
     }
 }
 @media (max-width:768px) {
